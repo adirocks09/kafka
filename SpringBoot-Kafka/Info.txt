@@ -1,0 +1,10 @@
+message retention period
+
+https://www.conduktor.io/kafka/kafka-brokers/
+
+.\bin\windows\kafka-console-producer.bat --broker-list localhost:9092 --topic 2022-merck
+
+.\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic 2022-merck --from-beginning
+
+.\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic 2023-LSMV-MT --from-beginning
+
